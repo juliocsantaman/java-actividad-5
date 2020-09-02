@@ -10,7 +10,7 @@
  */
 public class Operaciones {
     // Atributos/propiedades.
-    float x, y;
+    private float x, y;
     
     // Métodos.
     // Método constructor.
@@ -42,5 +42,14 @@ public class Operaciones {
     // Método módulo.
     public float modulo() {
         return x % y;
+    }
+    
+    // Métodos getters.
+    public float getX() {
+        return x;
+    }
+    
+    public float getY() {
+        return y;
     }
 }
