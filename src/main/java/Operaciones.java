@@ -9,5 +9,38 @@
  * @author julio
  */
 public class Operaciones {
+    // Atributos/propiedades.
+    float x, y;
     
+    // Métodos.
+    // Método constructor.
+    public Operaciones(float x, float y) {
+        this.x = x;
+        this.y = y;
+    }
+    
+    // Método suma.
+    public float suma() {
+        return x + y;
+    }
+    
+    // Método resta.
+    public float resta() {
+        return x - y;
+    }
+    
+    // Método multiplicación.
+    public float multiplicacion() {
+        return x * y;
+    }
+    
+    // Método división.
+    public float division() {
+        return x / y;
+    }
+    
+    // Método módulo.
+    public float modulo() {
+        return x % y;
+    }
 }
