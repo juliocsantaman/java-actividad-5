@@ -10,7 +10,6 @@
  */
 public class Main {
     public static void main(String[] args) {
-        
         /* 
             Creamos un objeto de la clase Operaciones
             y le pasamos dos valores para los atributos
@@ -29,6 +28,8 @@ public class Main {
         */
         System.out.println("***** Actividad 5 *****");
         System.out.println("Julio Cesar Santaman Cruz");
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
         System.out.println("Mostrando resultados de las siguientes operaciones:");
         System.out.println("La suma de "+ x + " + " + y + " es: " + ope.suma());
         System.out.println("La resta de "+ x + " - " + y + " es: " + ope.resta());
